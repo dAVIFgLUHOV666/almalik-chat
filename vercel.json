@@ -1,6 +1,7 @@
 {
   "rewrites": [
-    { "source": "/old-path", "destination": "/new-path" }
+    { "source": "/", "destination": "/login" },
+    { "source": "/home", "destination": "/index.php" }
   ],
   "redirects": [
     { "source": "/old-page", "destination": "/new-page", "permanent": true }
